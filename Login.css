@@ -1,26 +1,23 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 /* Auth container (Login/Registration) */
 .auth-container {
     width: 100%;
-    max-width: 400px;
+    max-width: 550px;
     margin: 10px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #020000;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+form {
+    max-width: 450px;
+    width: 100%;
+}
+.LoginDV {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
 /* Common form style */
 .auth-form {
     display: flex;
@@ -31,7 +28,7 @@ body {
 /* Heading */
 .auth-form h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: white;
 }
 
 /* Input fields */
@@ -44,7 +41,7 @@ body {
     display: block;
     font-size: 14px;
     margin-bottom: 5px;
-    color: #333;
+    color:#fff;
 }
 
 .input-group input {
@@ -57,31 +54,37 @@ body {
 
 /* Submit button */
 .auth-btn {
-    padding: 12px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 10px;
+    background-color: #947d52;
     width: 100%;
-    margin-bottom: 10px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+    font-weight: 700;
 }
 
 .auth-btn:hover {
-    background-color: #0056b3;
+    /* background-color:red; */
+    background-color:#ffd700;
+    color: #000;
 }
 
 /* Redirect links */
 .redirect-links {
+    padding: 15px 0;
     text-align: center;
     font-size: 14px;
-    color: #333;
+    color: white;
 }
 
 .redirect-links a {
-    color: #007bff;
+    color: #8c0000;
     text-decoration: none;
+    font-size: 16px;
+    padding-left: 16px;
+    font-weight: 800;
 }
 
 .redirect-links a:hover {

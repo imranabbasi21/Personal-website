@@ -1,0 +1,53 @@
+/* Footer Styling */
+footer {
+    background-color:#8c0000; /* Match the red color from the header */
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #770000; /* Slightly darker red for separation */
+    padding-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .footer-links li a:hover {
+    color: #ffd700; /* Add a gold hover effect */
+  }
+  
+  .footer-note p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    margin: 0;
+    color: #ddd;
+  }
+  
