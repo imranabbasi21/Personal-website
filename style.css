@@ -1,0 +1,210 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.TopBanner {
+    background-color:#8c0000;
+    position: relative;
+}
+.TopBanner ul{
+    list-style: none;
+}
+.TopBanner .topNav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.TopBanner .topNav a {
+    font-size: 14px;
+    color: white;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    border-right: 1px solid white;
+}
+
+.TopBanner .topNav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.NoteTop {
+    color: white;
+    font-size: 12px;
+}
+
+
+/* Carousel  */
+.CarouselImg
+{
+    width: 100%;
+max-height: 650px;
+    object-fit: cover;}
+
+.navbar-nav .dropdown-menu {
+    width: 100vw;
+    position: absolute; 
+    top: 100%;
+    left: 0; 
+    display: none;
+    transition: all 0.3s ease; 
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+/* Show the dropdown on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block; 
+    width: 60vw;
+}
+.imran .dropdown-menu{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #fff; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    padding: 15px;
+    font-size: 16px;
+}
+    /* Style for the image */
+    .card{
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    .text-success{
+        color: white !important;
+    }
+     .CustmImg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        transition: all 0.5s ease-in-out;
+        overflow: hidden;
+        height: 330px;
+        width: 100%;
+      }
+      .CustmImg:hover  {
+        transform: scale(1.2);
+        filter: brightness(0.8);
+        overflow: hidden;
+      }
+
+      .CartBtn:hover {    
+        background-color: red;
+      }
+      .card-body{
+        background-color: black;
+        color: white;
+        font-size: 16px;
+        z-index: 9999;    
+      }
+      .CartBtn {
+            padding: 10px;
+       background-color:#947d52;
+      width: 100%;
+       color: white;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+      }
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+    object-fit: contain;
+    padding: 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-btn:hover i {
+    color: #0056b3;
+}
+
+.container-fluid.brandSerach {
+    padding: 25px 25px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7);
+    background: black;
+}
+
+.CustmCollapse{
+    padding-left: 25px;
+ }
+a#navbarDropdown {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.inputClass {
+    color: red;
+    font-size: 1rem;
+    padding: 10px;
+    position: relative;
+    right: 44px;
+    border: none;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.FormCustm{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-radius: 9px !important;
+}
+.LoginRegister{
+    padding-top: 12px;
+}
+
+.LoginRegister ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: White;
+}
+
+.LoginRegister ul li a:hover {
+    color: red;
+    font-size: 18px;
+
+}
+
+.LoginRegister ul li {
+    margin: 0px;
+    display: inline;
+    padding: 0px 20px;
+}
+
+ ul.AllDv li{
+    text-align: center;
+    padding-top: 15px;
+ }
+ ul.AllDv{
+    list-style: none;
+}
+ul.AllDv li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.custom_btn_category[data-v-2c50cf51] {
+    background: transparent !important;
+    margin-top: -.5em !important;
+}
