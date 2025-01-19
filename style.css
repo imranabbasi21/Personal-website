@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -35,13 +37,10 @@ body {
     color: white;
     font-size: 12px;
 }
-
-
-/* Carousel  */
 .CarouselImg
 {
     width: 100%;
-max-height: 650px;
+max-height: 720px;
     object-fit: cover;}
 
 .navbar-nav .dropdown-menu {
@@ -55,7 +54,7 @@ max-height: 650px;
     justify-content: center; 
 }
 
-/* Show the dropdown on hover */
+
 .navbar-nav .dropdown:hover .dropdown-menu {
     display: block; 
     width: 60vw;
@@ -74,7 +73,7 @@ max-height: 650px;
     padding: 15px;
     font-size: 16px;
 }
-    /* Style for the image */
+
     .card{
         overflow: hidden;
         border-radius: 8px;
@@ -124,7 +123,8 @@ max-height: 650px;
 }
 
 .navbar-brand img {
-    max-width: 200px;
+    width: 100%;
+    max-width: 170px;
     object-fit: contain;
     padding: 0;
 }
@@ -207,4 +207,37 @@ ul.AllDv li a{
 .custom_btn_category[data-v-2c50cf51] {
     background: transparent !important;
     margin-top: -.5em !important;
+}
+
+@media (max-width: 768px) {
+.navbar-brand img {
+    max-width: 75px;
+    object-fit: contain;
+    padding: 0;
+}
+.TopBanner .topNav a{
+    font-size:10px;
+}
+.TopBanner .topNav{
+    padding-left: 0;margin-right: 10px;
+    
+}
+.NoteTop {
+    font-size: 9px;
+    padding-left: 0;
+}
+.container-fluid.brandSerach{
+    margin-bottom: 25px;
+}
+.LoginRegister ul li {
+    margin-top: 20px;
+    display: flex;
+    padding: 0px;
+}
+.LoginRegister ul{
+    padding:0;
+}
+.col-md-5.search-container {
+    display: none;
+}
 }
